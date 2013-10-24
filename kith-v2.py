@@ -105,7 +105,7 @@ class Kith:
       for option in state.find_elements_by_tag_name('option'):
          if option.text == user_state:
             option.click()
-      next_step = browser.find_element_by_name("commit")
+      next_step = browser.find_element_by_id("commit-button")
       next_step.click()
       time.sleep(3)
       credit_card = browser.find_element_by_name("credit_card[number]")
