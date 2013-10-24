@@ -26,6 +26,8 @@ or type in the command
 
     sudo pip install -e git+git://github.com/seatgeek/fuzzywuzzy.git#egg=fuzzywuzzy
 
+Installation Test
+----------------------
 After all that, type into terminal
 ```
 python Downloads/kith/kith_test.py
