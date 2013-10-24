@@ -4,7 +4,7 @@ Install Python 2.7 by downloading it at http://www.python.org/getit/releases/2.7
 
 For easy installation, download the ZIP file in your Downloads folder, extract it, and type into terminal 
 
-    python Downloads/kith-master/setup.py
+    python ~/Downloads/kith-master/setup.py
 
 If there is trouble installing,
 
@@ -31,7 +31,7 @@ Download the ZIP file at http://github.com/seatgeek/fuzzywuzzy.git#egg=fuzzywuzz
 
 Extract the ZIP file into your Downloads folder, and type the command
 
-    python Downloads/fuzzywuzzy-master/setup.py install
+    python ~/Downloads/fuzzywuzzy-master/setup.py install
     
 or type in the command
 
@@ -41,7 +41,7 @@ Installation Test
 ----------------------
 After all that, type into terminal
 
-    python Downloads/kith-master/kith_test.py
+    python ~/Downloads/kith-master/kith_test.py
 
 If you get a pass message, you have installed everything correctly
 
@@ -86,7 +86,7 @@ Running the Program
 --------------------
 type into the terminal 
 
-    python Downloads/kith-master/kith-v2.py
+    python ~/Downloads/kith-master/kith-v2.py
     
 you will get a menu screen that has the options 1-4
 ```
