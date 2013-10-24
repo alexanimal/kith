@@ -1,0 +1,28 @@
+Email:
+<replace with email>
+First Name:
+<replace with first name>
+Last Name:
+<replace with last name>
+Address Line 1:
+<replace with address line 1>
+Address Line 2:
+<replace with address line 2>
+City:
+<replace with city>
+ZIP Code:
+<replace with zip code>
+State:
+<replace with full state name>
+Phone Number:
+<replace with phone number>
+Credit Card Number:
+<replace with credit card number>
+Credit Card Expiration Month:
+<replace with expiration month (01,02,03...)>
+Credit Card Expiration Year:
+<replace with expiration year (full year: 2013,2014,2015...)>
+Credit Card Security Code:
+<replace with credit card security code>
+Shoe Size:
+<replace with shoe size>
