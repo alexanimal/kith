@@ -2,7 +2,7 @@ Installing dependencies
 ====================================
 Install Python 2.7 by downloading it at http://www.python.org/getit/releases/2.7.5/
 
-For easy installation, type command into terminal 
+For easy installation, download the zip file to your Downloads folder and type command into terminal 
 
     python Downloads/kith/setup.py
 
