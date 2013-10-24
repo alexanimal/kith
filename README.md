@@ -8,6 +8,17 @@ For easy installation, download the ZIP file in your Downloads folder, extract i
 
 If there is trouble installing,
 
+Python easy_install
+-----------------
+
+    sudo python ~/Downloads/kith/setuptools-1.1.6/setup.py install
+
+PIP
+---------------
+
+    sudo easy_install pip
+
+
 Selenium
 -------------------
 Install selenium by typing the command 
