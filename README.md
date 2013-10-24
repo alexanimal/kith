@@ -16,7 +16,7 @@ Install selenium by typing the command
 
 Fuzzywuzzy
 -----------------
-Download the ZIP file at github.com/seatgeek/fuzzywuzzy.git#egg=fuzzywuzzy
+Download the ZIP file at http://github.com/seatgeek/fuzzywuzzy.git#egg=fuzzywuzzy
 
 Extract the ZIP file into your Downloads folder, and type the command
 
