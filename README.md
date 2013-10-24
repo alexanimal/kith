@@ -6,8 +6,8 @@ For easy installation, download the ZIP file in your Downloads folder, extract i
 
     python ~/Downloads/kith-master/setup.py
 
-If there is trouble installing,
 
+If there is trouble installing,
 Python easy_install
 -----------------
 
