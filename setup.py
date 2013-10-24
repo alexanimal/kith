@@ -9,7 +9,7 @@ def answer():
 answer()
 
 if a =='y':
-   os.system('sudo python ~/Downloads/kith/setuptools-1.1.6/setup.py install')
+   os.system('sudo python ~/Downloads/kith-master/setuptools-1.1.6/setup.py install')
    os.system('cd')
    os.system('sudo easy_install pip')
    os.system('cd')
