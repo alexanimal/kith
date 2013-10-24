@@ -21,6 +21,10 @@ Download the ZIP file at github.com/seatgeek/fuzzywuzzy.git#egg=fuzzywuzzy
 Extract the ZIP file into your Downloads folder, and type the command
 
     python Downloads/fuzzywuzzy-master/setup.py install
+    
+or type in the command
+
+    sudo pip install -e git+git://github.com/seatgeek/fuzzywuzzy.git#egg=fuzzywuzzy
 
 After all that, type into terminal
 python Downloads/kith/kith_test.py
