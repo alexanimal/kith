@@ -11,7 +11,7 @@ If there is trouble installing,
 Python easy_install
 -----------------
 
-    sudo python ~/Downloads/kith/setuptools-1.1.6/setup.py install
+    sudo python ~/Downloads/kith-master/setuptools-1.1.6/setup.py install
 
 PIP
 ---------------
