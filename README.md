@@ -1,6 +1,6 @@
 Installing dependencies
 ====================================
-Install Python 2.7 by downloading it at 'http://www.python.org/getit/releases/2.7.5/'
+Install Python 2.7 by downloading it at http://www.python.org/getit/releases/2.7.5/
 
 For easy installation, type command into terminal 
 
@@ -13,12 +13,6 @@ Selenium
 Install selenium by typing the command 
 
     sudo pip install -U selenium
-
-If you get an error saying you do not have the pip command, type in 
-    
-    sudo port install py27-pip
-    
-If you get an error saying you don't have the port command, download and install macports
 
 Fuzzywuzzy
 -----------------
@@ -76,12 +70,23 @@ type into the terminal
     python Downloads/kith/kith-v2.py
     
 you will get a menu screen that has the options 1-4
-
+```
+You Should Complete these Steps in Order
+Type Item Selection Number, then Hit Enter
+1. Test Links On Site
+2. Set Fuzz Ratio
+3. Buy Item
+4. Program Test
+Type 'quit' to exit.
+```
 type 1
 
 the prompt will ask you to put in your item information
+```
+Item Name w/ dashes (ie: asics-gel-lyte-5-volcano):
+```
 
-type something like 'asics-gel-lyte-V-volcano'
+type something like **asics-gel-lyte-V-volcano**
 
 you will get the menu again, type 2
 
@@ -89,9 +94,7 @@ you will again come back to the menu, type 3
 
 you will get a prompt that asks you to enter the shoe keywords,
 
-enter the same thing you did before 'asics-gel-lyte-V-volcano'
-
-You are done.
+enter the same thing you did before **asics-gel-lyte-V-volcano**
 
 Testing the Program
 ----------------------
