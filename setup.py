@@ -9,7 +9,9 @@ def answer():
 answer()
 
 if a =='y':
-   os.system('sudo python ~/Downloads/kith-master/setuptools-1.1.6/setup.py install')
+   os.system('cd ~/Downloads/kith-master/')
+   os.system('wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py')
+   os.system('python ez_setup.py --user')
    os.system('cd')
    os.system('sudo easy_install pip')
    os.system('cd')
