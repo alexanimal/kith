@@ -86,7 +86,8 @@ Running the Program
 --------------------
 type into the terminal 
 
-    python ~/Downloads/kith-master/kith-v2.py
+    cd ~/Downloads/kith-master/
+    python kith-v2.py
     
 you will get a menu screen that has the options 1-4
 ```
