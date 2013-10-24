@@ -47,7 +47,7 @@ Install selenium by typing the command
 
 Fuzzywuzzy
 -----------------
-Download the ZIP file at github.com/seatgeek/fuzzywuzzy.git#egg=fuzzywuzzy
+Download the ZIP file at http://github.com/seatgeek/fuzzywuzzy.git#egg=fuzzywuzzy
 
 Extract the ZIP file into your Downloads folder, and type the command
 
@@ -57,8 +57,12 @@ or type in the command
 
     sudo pip install -e git+git://github.com/seatgeek/fuzzywuzzy.git#egg=fuzzywuzzy
 
+Installation Test
+----------------------
 After all that, type into terminal
+```
 python Downloads/kith/kith_test.py
+```
 If you get a pass message, you have installed everything correctly
 
 Program Instructions
