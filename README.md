@@ -11,7 +11,8 @@ If there is trouble installing,
 Python easy_install
 -----------------
 
-    sudo python ~/Downloads/kith-master/setuptools-1.1.6/setup.py install
+    wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
+    python ez_setup.py --user
 
 PIP
 ---------------
