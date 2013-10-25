@@ -80,6 +80,52 @@ class Kith:
       alert.accept()
       time.sleep(3)
    
+   def cart_test(self):
+      email = browser.find_element_by_name("order[email]")
+      first_name = browser.find_element_by_name("billing_address[first_name]")
+      last_name = browser.find_element_by_name("billing_address[last_name]")
+      address1 = browser.find_element_by_name("billing_address[address1]")
+      address2 = browser.find_element_by_name("billing_address[address2]")
+      city = browser.find_element_by_name("billing_address[city]")
+      zip_code = browser.find_element_by_name("billing_address[zip]")
+      phone = browser.find_element_by_name("billing_address[phone]")
+      email.send_keys(user_email)
+      first_name.send_keys(user_first_name)
+      last_name.send_keys(user_last_name)
+      address1.send_keys(user_address1)
+      address2.send_keys(user_address2)
+      city.send_keys(user_city)
+      zip_code.send_keys(user_zip_code)
+      phone.send_keys(user_tel)
+      country = browser.find_element_by_name('billing_address[country]')
+      for option in country.find_elements_by_tag_name('option'):
+         if option.text == 'United States':
+            option.click()
+      state = browser.find_element_by_name("billing_address[province]")
+      for option in state.find_elements_by_tag_name('option'):
+         if option.text == user_state:
+            option.click()
+      next_step = browser.find_element_by_id("commit-button")
+      mouse = (webdriver.ActionChains(browser))
+      mouse.double_click(next_step).perform()
+      time.sleep(3)
+      credit_card = browser.find_element_by_name("credit_card[number]")
+      credit_card.send_keys(user_cc_num)
+      credit_card_month = browser.find_element_by_name("credit_card[month]")
+      for option in credit_card_month.find_elements_by_tag_name('option'):
+         if option.text == cc_exp_month:
+            option.click()
+      credit_card_year = browser.find_element_by_name('credit_card[year]')
+      for option in credit_card_year.find_elements_by_tag_name('option'):
+         if option.text == user_cc_year:
+            option.click()
+      card_security_code = browser.find_element_by_name("credit_card[verification_value]")
+      card_security_code.send_keys(user_cc_csc)
+      check_box = browser.find_element_by_name("buyer_accepts_marketing")
+      check_box.click()
+      place_order = browser.find_element_by_name("commit")
+      #place_order.click()
+      
    def cart(self):
       email = browser.find_element_by_name("order[email]")
       first_name = browser.find_element_by_name("billing_address[first_name]")
@@ -106,7 +152,8 @@ class Kith:
          if option.text == user_state:
             option.click()
       next_step = browser.find_element_by_id("commit-button")
-      next_step.click()
+      mouse = (webdriver.ActionChains(browser))
+      mouse.double_click(next_step).perform()
       time.sleep(3)
       credit_card = browser.find_element_by_name("credit_card[number]")
       credit_card.send_keys(user_cc_num)
@@ -123,7 +170,7 @@ class Kith:
       check_box = browser.find_element_by_name("buyer_accepts_marketing")
       check_box.click()
       place_order = browser.find_element_by_name("commit")
-      #place_order.click()
+      place_order.click()
 
    def xpath_size(self, size_of_shoe):
       global xpath
@@ -313,7 +360,7 @@ def kith_test():
    s = "/products/"+keywords
    try:
       Kith().go_to_item_page(s)
-      Kith().cart()
+      Kith().cart_test()
    except IOError:
       pass
    else:
